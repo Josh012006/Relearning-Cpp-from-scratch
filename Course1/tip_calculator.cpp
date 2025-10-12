@@ -1,9 +1,11 @@
 #include <iostream>
-
+#include <iomanip>
 
 
 
 int main() {
+
+    std::cout << std::fixed << std::setprecision(2);
 
     double billAmount = 0.0;
     double tipPercentage = 0;
