@@ -1,6 +1,8 @@
 #include <iostream>
 
-
+// Homogenous
+// Fixed sized
+// Contiguous memory cases
 
 int main() {
 
