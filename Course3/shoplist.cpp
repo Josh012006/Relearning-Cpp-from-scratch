@@ -21,8 +21,10 @@ int main() {
     std::cout << "\n --- Here is your list ---\n" << std::endl;
 
     for(std::string item : items) {
-        std::cout << item << std::endl;
+        std::cout << "- " << item << std::endl;
     }
+
+    std::cout << std::endl;
 
 
     return 0;
